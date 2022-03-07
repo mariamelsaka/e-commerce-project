@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="../../public/assets/css/normalize.css">
+    <!-- boostrap css -->
+    <link rel="stylesheet" href="../../public/assets/css/css/bootstrap.min.css">
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="../../public/assets/css/all.min.css">
+    <title>Register</title>
+</head>
+<body>
+
+<!-- start header -->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #52c4c48c;" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="../../public/assets/image/cup.jpg" class="rounded" width="120%" height="50px" alt=""></a>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="home.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="about.html">About</a>
+                </li>
+
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="menu.html">Menu</a>
+            </li>
+
+          </ul>
+
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <button class="btn"  style="padding: 2px;"><a  class="nav-link btn" aria-current="page" href="login.html" style="background-color:rgba(128, 128, 128, 0.815);"> Log In</a></button>
+              </li>
+
+              <li class="nav-item">
+                <button class=" btn" style="margin-left: 10px; padding: 2px;"   > <a class="nav-link btn " aria-current="page"  href="register.html" style="background-color:rgba(128, 128, 128, 0.815);" >Rigester</a> </button>
+              </li>
+            </ul>
+
+        </div>
+      </div>
+    </nav>
+</header>
+<!-- end header -->
+
+
+
+<main>
+
+  <section style=" background-image: url('../../public/assets/image/background.png'); height:1200px;">
+
+       <div class="" style="padding: 180px; padding-left: 380px;">
+         <div class="container">
+           <div class="card border  text-center" style="width: 500px; height: 830px; "  >
+            <!-- rgba(106, 19, 124, 0.123) -->
+            <div class="card-body" style="background-color: rgba(106, 19, 124, 0.123);" >
+
+
+              <form class="" action="#"  method="post">
+
+                <div style="margin-bottom:20px;margin-top: 50px;">
+                  <i class="fas fa-align-justify"></i>
+                  <strong> first name </strong>
+                    <input  style="padding-right: 20px;" type="text" required name="first name" placeholder="enter your first name"  >
+
+                </div>
+
+
+                <div style="margin-bottom:20px;margin-top: 50px;">
+                  <i class="fas fa-align-justify"></i>
+                   <strong> last name </strong>
+                    <input style="padding-right: 20px;" type="text" required name="last name" placeholder="enter your first name" >
+                </div>
+
+                  <div style="margin-bottom:20px;margin-top: 50px;">
+                  <i class="fas fa-user"></i>
+                  <strong> Email </strong>
+                <input style="padding-right: 20px; padding-left: 15px;" type="email"style="padding-left: 25px;" required  name="email"placeholder="enter your email" >
+                </div>
+
+
+                  <div  style="margin-bottom:20px;margin-top: 50px; margin-right: 20px;" >
+                    <i class="fas fa-lock"></i>
+                   <strong > Password </strong>
+                  <input type="password" style="padding-right: 20px;"  required name="password"placeholder="enter your password" >
+                  </div>
+
+                  <div style="margin-right:50px;margin-bottom:20px;margin-top: 50px; margin-right: 70px;">
+                    <i class="fas fa-user-lock"></i>
+                      <strong>confirm  password </strong>
+                    <input type="password" style="padding-right: 20px;" required name="confirm_password"placeholder="confirm password" >
+                </div>
+
+
+                <div style="margin-bottom:20px;margin-top: 50px; margin-right: 50px;">
+                  <i class="fas fa-phone-alt"></i>
+                  <strong> phone number </strong>
+                  <input type="text"  style="padding-right: 20px;" placeholder="enter your phone number" required name="phone_number" >
+
+              </div>
+
+            <div style="margin-bottom:20px;margin-top: 50px;margin-right: 20px;">
+              <i class="far fa-calendar-alt"></i>
+                <strong> date of birth </strong>
+                <input type="date" style="padding-left: 20px;" required name="birth_date" >
+
+            </div>
+
+
+
+
+
+                <div style="margin-bottom:20px;margin-top: 50px; font-size: larger;"  >
+                  <i class="fas fa-venus " ></i>
+                    <input id="male" style="padding-left: 20px;" type="checkbox" name="gender"> <strong> male </strong>
+                    <input id="female" style="padding-left: 20px;" type="checkbox" name="gender"> <strong>female</strong>
+
+                </div>
+
+
+
+                  <div style="margin:50px; margin-left: 300px;">
+
+                      <button class="btn" style="background-color:gray;"  >Submit</button>
+
+                  </div>
+
+
+            </form>
+
+
+
+
+             </div>
+
+
+           </div>
+         </div>
+       </div>
+
+
+  </section>
+
+
+
+</main>
+
+
+
+<footer>
+
+<div class="p-3  mb-0" style="background-color: #52c4c48c;">
+    <div class="container">
+       <div class="row">
+
+           <div class="col-12 col-md-3 " style="margin-right: 285px;">
+            <p class="fw-bold">Contact Us</p>
+            <hr>
+           <p>
+            <i class="fa fa-address-card" aria-hidden="true"></i>
+            you can visit us at our cafe.
+           </p>
+           <p>
+            <i class="fas fa-phone-square-alt"></i>
+           010-155-64-573
+           </p>
+           <p>
+            <i class="fas fa-fax"></i>
+            (111)-443-221-543
+           </p>
+
+
+           <p>
+
+
+            <i class="fab fa-instagram" style="margin-right: 10px;"> <a href=""></a></i>
+           <i class="fab fa-facebook-square" style="margin-right: 10px;"> <link rel="stylesheet" href="https://www.facebook.com/mariam.alsaqa.3 "> </i>
+            <i class="fab fa-twitter"></i>
+
+                  </p>
+
+           </div>
+
+
+           <div class="col-12 col-md-6">
+            <p class="fw-bold"> Location</p>
+            <hr>
+
+            <div>
+                <img src="../../public/assets/image/temp.jpg" class="rounded w-100" height="250" alt="">
+            </div>
+
+        </div>
+       </div>
+
+    </div>
+</div>
+</footer>
+
+    <!-- boostrap js -->
+    <script src="../../public/assets/js/bootstrap.bundle.min.js"></script>
+    <!-- fontawesome js -->
+    <script src="../../public/assets/js/all.min.js"></script>
+</body>
+</html>
