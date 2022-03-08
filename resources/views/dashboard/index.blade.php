@@ -1,5 +1,4 @@
 @extends('dashboard.common.app')
-@extends('dashboard.common.navbar')
 @section('content')
 
     <!-- Begin Page Content -->
